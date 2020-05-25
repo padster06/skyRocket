@@ -1,0 +1,53 @@
+*{
+	padding:0;
+	margin:0;
+	touch-action: manipulation;
+	-webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* Not implemented yet */
+    -o-user-select: none;
+    user-select: none;    
+}
+body{
+	text-align:center;
+	background-color:#eeeeee;
+	overflow:hidden;
+}
+#myCanvas{
+	border:solid 1px #555;
+}
+#beginScreen{
+	text-align: center;
+	opacity: 4.5;
+	padding :15px;
+	font-family: sans-serif;
+	height: 100%;
+}
+#howTo{
+	text-align: center;
+	opacity: 4.5;
+	padding :15px;
+	font-family: sans-serif;
+	height: 100%;
+}
+#restartScreen{
+	text-align: center;
+	opacity: 4.5;
+	padding :15px;
+	font-family: sans-serif;
+	height: 100%;
+}
+
+#left{
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+}
+
+button{
+	width:60px;
+	height:60px;
+	border-radius:20px;
+}
